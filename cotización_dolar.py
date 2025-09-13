@@ -1,0 +1,2 @@
+cotizacion_dolar={"Dolar BNA": 1210.00, "Dolar blue": 1205.00, "Dolar tarjeta": 1573.00, "Dolar MEP": 1202.92, "Dolar Mayorista":1200.00, "Dolar cripto":1206.99 }
+for dolar, cotizacion in cotizacion_dolar.items(): print(f' {dolar}: cotiza a {cotizacion}')
