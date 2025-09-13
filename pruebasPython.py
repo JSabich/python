@@ -51,7 +51,7 @@ print(lista)
 #mostrar un elemento del vector
 print(lista[0])
 
-for i in range(0,3):
+for i in range(0,1):
     print(lista[i])
     print("------")
 
