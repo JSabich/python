@@ -1,3 +1,4 @@
+'''
 #Ejercicio 1
 Numero1=int( input("Ingrese el Primer número : "))
 Numero2=int(input("Ingrese el segundo número : "))
@@ -51,7 +52,7 @@ menor = min(numero1, numero2, numero3)
 print(f'El número {mayor} es el mayor')
 print(f'El número {menor} es el menor')  
        
-'''
+
 # Ejercicio 2
 Numero1=int( input("Ingrese el Primer número : "))
 Numero2=int(input("Ingrese el segundo número : "))
@@ -68,3 +69,14 @@ elif(Numero2+Numero3==Numero1):
     
 else:
     print("No son iguales")'''
+    
+Valor_hora= 2
+Nombre=input("Ingrese el Nombre del empleado: ")
+Horas_trabajadas=float(input("Ingrese la cantida de horas trabajadas: "))
+
+if (Horas_trabajadas<=40):
+    print(f'El empleado {Nombre} cobrará la suma de $ {Horas_trabajadas*Valor_hora}')
+else:
+    print(f'El empleado {Nombre} cobrará la suma de $ {((Horas_trabajadas-40)*(Valor_hora*1.5))+(40*Valor_hora)}')
+    
+    
